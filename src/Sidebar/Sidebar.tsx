@@ -86,8 +86,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
     if (isShrunk) {
       return !popover;
     }
-    return popover
-  }, [isShrunk])
+    return popover;
+  }, [isShrunk]);
   const Link = linkComponent ?? "a";
 
   useEffect(() => {
