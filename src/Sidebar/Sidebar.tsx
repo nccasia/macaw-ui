@@ -38,7 +38,7 @@ const useStyles = makeStyles(
       width: (props: SidebarStylesProps) => props.sidebarWidth,
     },
     rootShrink: {
-      width: shrunkMenuWidth,
+      width: `${shrunkMenuWidth}px !important`,
     },
     toolbarContainer: {
       margin: theme.spacing(1, 0, 1, 1.5),
