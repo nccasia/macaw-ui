@@ -47,7 +47,7 @@ export const UserChipMenu: React.FC<UserChipProps> = ({
       >
         <Avatar avatar={avatar as string | undefined} initials={initials} />
         <div className={classes.labelContainer}>
-          <Hidden smDown>
+          <Hidden only="xs">
             <div>
               <Typography className={classes.label} variant="body2">
                 {name}
